@@ -1,8 +1,8 @@
-title: My Blog
+title: Tecnocriollo blog
 description: A personal blog about various topics.
-url: https://yourblog.github.io
-author: Your Name
-theme: minima
+url: https://tecnocriollo.github.io
+author: Patricio Sanchez
+theme: cayman
 markdown: kramdown
 plugins:
   - jekyll-feed
