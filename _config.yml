@@ -4,6 +4,11 @@ url: https://tecnocriollo.github.io
 author: Patricio Sanchez
 theme: minima
 markdown: kramdown
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: false
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-titles-from-headings
