@@ -2,7 +2,7 @@ title: Tecnocriollo blog
 description: A personal blog about various topics.
 url: https://tecnocriollo.github.io
 author: Patricio Sanchez
-theme: cayman
+theme: minima
 markdown: kramdown
 plugins:
   - jekyll-feed
