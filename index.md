@@ -1,3 +1,3 @@
-# Welcome to my site
+# Bienvenidos
 
-This is the homepage of my blog where I share my thoughts, ideas, and experiences. Stay tuned for updates and new posts!
+Acá centraré mis ideas, mis pensamientos respecto a distintos aspectos, principalmente la ingeniería de datos y el desarrollo.
