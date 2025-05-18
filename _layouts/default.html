@@ -5,22 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8508795595820621"
      crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>{{ site.title }}</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <div class="site-title-nav">
+                <h1>{{ site.title }}</h1>
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul> 
+                     <div class="social-icons" style="margin-left: auto;">
+                        <a href="https://www.facebook.com/psasolutions" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/tecnocriollo" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/tecnocriollo_cl" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/patriciosanchez" target="_blank"><i class="fab fa-linkedin"></i></a>           
+                     </div>
+                </nav>
+                  
+            </div>
+            
+        </div>
     </header>
     
     <main>
+
         {{ content }}
     </main>
     
