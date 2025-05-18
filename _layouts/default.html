@@ -14,7 +14,8 @@
         <div class="header-content">
             <div class="site-title-nav">
                 <h1><a href="/" style="text-decoration: none; color: inherit;">{{ site.title }}</a></h1>
-                <nav>                    
+                <nav>
+                        
                      <div class="social-icons" style="margin-left: auto;">
                         <a href="https://www.facebook.com/psasolutions" target="_blank"><i class="fab fa-facebook"></i></a>
                         <a href="https://twitter.com/tecnocriollo" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -29,9 +30,29 @@
     </header>
     
     <main>
-
-        {{ content }}
-    </main>
+        <article>
+            <h2>{{ page.title }}</h2>
+            <div class="post-content">
+                {{ content }}
+            </div>
+        </article>
+    <section class="post-list">
+        <h2>Últimos Posts</h2>
+        <ul style="list-style: none; padding: 0;">
+            {% for post in site.posts %}
+            <li style="margin-bottom: 2em; border-bottom: 1px solid #eee; padding-bottom: 1em;">
+                <h3 style="margin-bottom: 0.2em;">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h3>
+                <p style="color: #666; font-size: 0.95em;">
+                    {{ post.excerpt | strip_html | truncate: 160 }}
+                </p>
+                <a href="{{ post.url }}" style="font-size: 0.9em; color: #007acc;">Leer más &rarr;</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+</main>
     
     <footer>
         <p>&copy; {{ site.year }} {{ site.title }}. All rights reserved.</p>

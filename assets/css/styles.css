@@ -40,7 +40,14 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.site-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 main {
+    flex: 1;
     padding: 20px;
 }
 
@@ -49,7 +56,6 @@ footer {
     padding: 10px 0;
     background: #333;
     color: #fff;
-    position: relative;
-    bottom: 0;
     width: 100%;
+    margin-top: auto; /* This pushes the footer to the bottom */
 }
