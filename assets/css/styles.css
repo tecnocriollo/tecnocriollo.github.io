@@ -59,3 +59,31 @@ footer {
     width: 100%;
     margin-top: auto; /* This pushes the footer to the bottom */
 }
+
+/* Add or update these styles for better reading experience */
+/* filepath: d:\projects\tecnocriollo-blog\assets\css\styles.css */
+
+.post-content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2em 1em;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    line-height: 1.7;
+    font-size: 1.1em;
+}
+
+/* Optional: add some spacing to the article itself */
+article {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* Limit image width inside post content */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+}
