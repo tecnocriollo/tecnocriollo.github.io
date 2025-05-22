@@ -14,7 +14,7 @@ donde *warehouse* sería la ruta del catálogo definido en configuración spark,
 SELECT col1, col2 FROM database.table
 ```
 
-en este sentido es un esquema autoorganizado. Pero hay más, Iceberg ofrece versionamiento, evolución de esquema y no es necesario definir índices ya que los crea el mismo. Esto es gracias 
+en este sentido es un esquema autoorganizado. Pero hay más, Iceberg ofrece versionamiento, evolución de esquema y no es necesario definir índices ya que los crea el mismo. Esto es gracias a su estructura que aprovecha el mismo storage y logs.
 
 <a href="/assets/images/iceberg-metadata.png" target="_blank">
   <img src="/assets/images/iceberg-metadata.png" alt="Iceberg metadata">
