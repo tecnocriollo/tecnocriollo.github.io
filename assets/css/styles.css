@@ -86,4 +86,17 @@ article {
     height: auto;
     display: block;
     margin: 1.5em auto;
+    margin-bottom: 0.1em;
+}
+
+/* Mejorar el texto bajo las imágenes de los posts */
+/* filepath: d:\projects\tecnocriollo-blog\assets\css\styles.css */
+
+.post-content p.imagen-ayuda {
+    text-align: center;
+    font-size: 0.80em;
+    color: #888;
+    margin-top: 0.1em;
+    margin-bottom: 2em;
+    line-height: 1.2;
 }
