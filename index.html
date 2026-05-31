@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio de Tecnocriollo: proyectos, experiencia y formas de contacto." />
+  <title>Tecnocriollo | Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#inicio">tecnocriollo</a>
+      <ul class="menu">
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero container">
+      <p class="eyebrow">Desarrollo web y automatización</p>
+      <h1>Construyo productos digitales claros, útiles y rápidos.</h1>
+      <p class="lead">Soy Tecnocriollo. Este es un resumen de proyectos reales, resultados y tecnologías con las que trabajo.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+        <a class="btn btn-ghost" href="#contacto">Hablemos</a>
+      </div>
+    </section>
+
+    <section class="section container" id="proyectos">
+      <div class="section-head">
+        <h2>Proyectos destacados</h2>
+        <p>Casos de trabajo donde combiné producto, código y ejecución.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>SafeJobs</h3>
+          <p>Plataforma enfocada en oportunidades laborales confiables con filtros y flujo de publicación.</p>
+          <span>Stack: React, Node.js, PostgreSQL</span>
+        </article>
+        <article class="card">
+          <h3>LakeQL</h3>
+          <p>Herramientas y flujos de datos para consultas más simples sobre fuentes heterogéneas.</p>
+          <span>Stack: TypeScript, APIs, ETL</span>
+        </article>
+        <article class="card">
+          <h3>TeA Busco</h3>
+          <p>Sitio orientado a presencia digital, performance y experiencia de usuario en móvil.</p>
+          <span>Stack: Next.js, CSS, SEO</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="sobre-mi">
+      <div class="section-head">
+        <h2>Sobre mí</h2>
+      </div>
+      <p class="about">Trabajo de punta a punta: desde idea y arquitectura, hasta entrega y mejora continua. Me enfoco en construir soluciones que realmente se usen.</p>
+    </section>
+
+    <section class="section container" id="contacto">
+      <div class="section-head">
+        <h2>Contacto</h2>
+        <p>Si quieres colaborar o tienes una idea, conversemos.</p>
+      </div>
+      <div class="contact-links">
+        <a href="https://github.com/tecnocriollo" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:tu-correo@ejemplo.com">Email</a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> tecnocriollo</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
